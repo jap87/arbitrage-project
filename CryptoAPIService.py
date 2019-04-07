@@ -1,6 +1,7 @@
 import http.client
 import json
 
+# check out http://docs.nomics.com for the list of routes and what they give you and what parameters they require
 connection = http.client.HTTPSConnection('api.nomics.com')
 connection.request("GET", "/v1/markets?key=fd24ac27f03b5016a3a44e8179d6da86")
 response = connection.getresponse()
