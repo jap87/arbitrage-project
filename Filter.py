@@ -10,8 +10,3 @@ unique_names = set()
 for i in list_of_exchange:
     unique_names.add(i["base"])
     unique_names.add(i["quote"])
-    
-unique_names = set()
-for i in list_of_exchange:
-    unique_names.add(i["base"])
-    unique_names.add(i["quote"])
